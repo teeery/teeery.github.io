@@ -1,4 +1,4 @@
-baseURL = 'https://juicebar-demo.add1.dev/'
+baseURL = 'https://teeery.github.io/'
 languageCode = 'en'
 # languageCode = 'zh-CN'
 theme = "JuiceBar"
