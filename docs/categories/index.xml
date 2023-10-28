@@ -2,35 +2,35 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on JuiceBar</title>
-    <link>https://teeery.github.io/categories/</link>
+    <link>https://teeery.github.io.com/categories/</link>
     <description>Recent content in Categories on JuiceBar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 18 Feb 2023 22:19:13 +0800</lastBuildDate><atom:link href="https://teeery.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 18 Feb 2023 22:19:13 +0800</lastBuildDate><atom:link href="https://teeery.github.io.com/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Essay</title>
-      <link>https://teeery.github.io/categories/essay/</link>
+      <link>https://teeery.github.io.com/categories/essay/</link>
       <pubDate>Sat, 18 Feb 2023 22:19:13 +0800</pubDate>
       
-      <guid>https://teeery.github.io/categories/essay/</guid>
+      <guid>https://teeery.github.io.com/categories/essay/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Guide</title>
-      <link>https://teeery.github.io/categories/guide/</link>
+      <link>https://teeery.github.io.com/categories/guide/</link>
       <pubDate>Thu, 16 Feb 2023 18:58:11 +0800</pubDate>
       
-      <guid>https://teeery.github.io/categories/guide/</guid>
+      <guid>https://teeery.github.io.com/categories/guide/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Development</title>
-      <link>https://teeery.github.io/categories/development/</link>
+      <link>https://teeery.github.io.com/categories/development/</link>
       <pubDate>Sun, 10 Apr 2022 16:50:28 +0800</pubDate>
       
-      <guid>https://teeery.github.io/categories/development/</guid>
+      <guid>https://teeery.github.io.com/categories/development/</guid>
       <description></description>
     </item>
     
