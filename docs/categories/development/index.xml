@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Development on JuiceBar</title>
+    <link>https://juicebar-demo.add1.dev/categories/development/</link>
+    <description>Recent content in Development on JuiceBar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 10 Apr 2022 16:50:28 +0800</lastBuildDate><atom:link href="https://juicebar-demo.add1.dev/categories/development/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lorem Ipsum</title>
+      <link>https://juicebar-demo.add1.dev/post/lorem-ipsum/</link>
+      <pubDate>Sun, 10 Apr 2022 16:50:28 +0800</pubDate>
+      
+      <guid>https://juicebar-demo.add1.dev/post/lorem-ipsum/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur&amp;hellip;
+What is Lorem Ipsum? In mollis cursus ligula, et venenatis neque maximus utn mollis cursus ligula, et venenatis neque maximus utn mollis cursus ligula, et venenatis neque maximus utn mollis cursus ligula, et venenatis neque maximus utn mollis cursus ligula, et venenatis neque maximus utn mollis cursus ligula, et venenatis neque maximus utn mollis cursus ligula, et venenatis neque maximus utn mollis cursus ligula, et venenatis neque maximus utn mollis cursus ligula, et venenatis neque maximus utn mollis cursus ligula, et venenatis neque maximus utn mollis cursus ligula, et venenatis neque maximus utn mollis cursus ligula, et venenatis neque maximus ut</description>
+    </item>
+    
+  </channel>
+</rss>
