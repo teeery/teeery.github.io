@@ -4,27 +4,54 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-    <title>Self Reliance | Terry</title>
+    <title>博客搭建的艰辛过程 | Terry</title>
     <meta name="description"
-        content="IT is a truth universally acknowledged, that a single man in possession of a good fortune must be in want of a wife.
-However little known the feelings or views of such a man may be on his first entering a neighbourhood, this truth is so well fixed in the minds of the surrounding families, that he is considered as the rightful property of some one or other of their daughters.">
-    <link rel="canonical" href="https://teeery.github.io/post/self-reliance/" />
+        content="那么这个网站终于已经是建成功了。
+这是一个用hugo&#43;github搭建的个人博客。
+现在开始介绍搭建的过程,read go
+安装hugo 什么是hugo？搭建个人博客有很多开源的博客框架，。Hugo 是一个基于Go 语言的框架，可以快速方便的创建自己的博客。Hugo 支持Markdown 语法，我们可以将自己的文章写成Markdown 的格式，放在我们用Hugo 创建的博客系统中，从而展示给他人。
+hugo的安装地址&gt;https://github.com/gohugoio/hugo/releases在这个网址里找到合适你自己的系统的安装包（比如window 64位操作系统） 点击show all assets找到适合你系统的安装包。
+下载好压缩包之后，是解压到一个新建文件夹里面；如图标准三件套。
+！
+然后开始设置环境变量
+什么是环境变量？按我的理解就类似于局部变量和全局变量，设置了环境变量以后你就能在操作系统中使用hugo。
+以我的64位的window11为例，打开开始（四季小图标）找到设置，打开，在里面搜索环境变量，点击编辑系统环境变量，再在弹出来的窗口点击环境变量，在你的用户变量里面找到path那一栏，双击，然后点击新建，把你的hugo所在的路劲粘贴上去确定即可。 当你添加好环境变量之后，在四季小图标打开cmd(命令提示符)，输入hugo version，如果显示了版本信息就说明安装成功了。
+嘻嘻">
+    <link rel="canonical" href="https://teeery.github.io/post/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E7%9A%84%E8%89%B0%E8%BE%9B%E8%BF%87%E7%A8%8B/" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
     
     <link rel="stylesheet" href="https://teeery.github.io/scss/style.min.d6341f25b6d8ae42bfd0057381190ef7cef03c7dc8842acc90df936fdde824d7.css">
 
-    <meta property="og:title" content="Self Reliance" />
-<meta property="og:description" content="IT is a truth universally acknowledged, that a single man in possession of a good fortune must be in want of a wife.
-However little known the feelings or views of such a man may be on his first entering a neighbourhood, this truth is so well fixed in the minds of the surrounding families, that he is considered as the rightful property of some one or other of their daughters." />
+    <meta property="og:title" content="博客搭建的艰辛过程" />
+<meta property="og:description" content="那么这个网站终于已经是建成功了。
+这是一个用hugo&#43;github搭建的个人博客。
+现在开始介绍搭建的过程,read go
+安装hugo 什么是hugo？搭建个人博客有很多开源的博客框架，。Hugo 是一个基于Go 语言的框架，可以快速方便的创建自己的博客。Hugo 支持Markdown 语法，我们可以将自己的文章写成Markdown 的格式，放在我们用Hugo 创建的博客系统中，从而展示给他人。
+hugo的安装地址&gt;https://github.com/gohugoio/hugo/releases在这个网址里找到合适你自己的系统的安装包（比如window 64位操作系统） 点击show all assets找到适合你系统的安装包。
+下载好压缩包之后，是解压到一个新建文件夹里面；如图标准三件套。
+！
+然后开始设置环境变量
+什么是环境变量？按我的理解就类似于局部变量和全局变量，设置了环境变量以后你就能在操作系统中使用hugo。
+以我的64位的window11为例，打开开始（四季小图标）找到设置，打开，在里面搜索环境变量，点击编辑系统环境变量，再在弹出来的窗口点击环境变量，在你的用户变量里面找到path那一栏，双击，然后点击新建，把你的hugo所在的路劲粘贴上去确定即可。 当你添加好环境变量之后，在四季小图标打开cmd(命令提示符)，输入hugo version，如果显示了版本信息就说明安装成功了。
+嘻嘻" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://teeery.github.io/post/self-reliance/" /><meta property="article:section" content="post" />
-<meta property="article:published_time" content="2023-02-18T22:19:13+08:00" />
-<meta property="article:modified_time" content="2023-02-18T22:19:13+08:00" /><meta property="og:site_name" content="Terry" />
+<meta property="og:url" content="https://teeery.github.io/post/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E7%9A%84%E8%89%B0%E8%BE%9B%E8%BF%87%E7%A8%8B/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2023-02-18T22:11:12+08:00" />
+<meta property="article:modified_time" content="2023-02-18T22:11:12+08:00" /><meta property="og:site_name" content="Terry" />
 
     <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Self Reliance"/>
-<meta name="twitter:description" content="IT is a truth universally acknowledged, that a single man in possession of a good fortune must be in want of a wife.
-However little known the feelings or views of such a man may be on his first entering a neighbourhood, this truth is so well fixed in the minds of the surrounding families, that he is considered as the rightful property of some one or other of their daughters."/>
+<meta name="twitter:title" content="博客搭建的艰辛过程"/>
+<meta name="twitter:description" content="那么这个网站终于已经是建成功了。
+这是一个用hugo&#43;github搭建的个人博客。
+现在开始介绍搭建的过程,read go
+安装hugo 什么是hugo？搭建个人博客有很多开源的博客框架，。Hugo 是一个基于Go 语言的框架，可以快速方便的创建自己的博客。Hugo 支持Markdown 语法，我们可以将自己的文章写成Markdown 的格式，放在我们用Hugo 创建的博客系统中，从而展示给他人。
+hugo的安装地址&gt;https://github.com/gohugoio/hugo/releases在这个网址里找到合适你自己的系统的安装包（比如window 64位操作系统） 点击show all assets找到适合你系统的安装包。
+下载好压缩包之后，是解压到一个新建文件夹里面；如图标准三件套。
+！
+然后开始设置环境变量
+什么是环境变量？按我的理解就类似于局部变量和全局变量，设置了环境变量以后你就能在操作系统中使用hugo。
+以我的64位的window11为例，打开开始（四季小图标）找到设置，打开，在里面搜索环境变量，点击编辑系统环境变量，再在弹出来的窗口点击环境变量，在你的用户变量里面找到path那一栏，双击，然后点击新建，把你的hugo所在的路劲粘贴上去确定即可。 当你添加好环境变量之后，在四季小图标打开cmd(命令提示符)，输入hugo version，如果显示了版本信息就说明安装成功了。
+嘻嘻"/>
 
     
     
@@ -138,7 +165,7 @@ However little known the feelings or views of such a man may be on his first ent
 </header><main>
 <div class="single-container">
     <div class="archive">
-        <h1 class="title is-1">Self Reliance</h1>
+        <h1 class="title is-1">博客搭建的艰辛过程</h1>
         <div class="title subtitle heading is-6">
             <div class="author-info columns is-vcentered">
                 <div class="column">
@@ -166,47 +193,24 @@ However little known the feelings or views of such a man may be on his first ent
                 
     <div class="post-toc">
         
-            <aside>
-                <h4 style="margin-left: 1vw;">CONTENTS</h4><nav id="TableOfContents"></nav></aside>
-        
     </div>
                 </div>
-            <p>IT is a truth universally acknowledged, that a single man in possession of a good fortune must be in want of a wife.</p>
-<p>However little known the feelings or views of such a man may be on his first entering a neighbourhood, this truth is so well fixed in the minds of the surrounding families, that he is considered as the rightful property of some one or other of their daughters.</p>
-<p>&ldquo;My dear Mr. Bennet,&rdquo; said his lady to him one day, &ldquo;have you heard that Netherfield park is let at last?&rdquo;</p>
-<p>Mr. Bennet replied that he had not.</p>
-<p>&ldquo;But it is,&rdquo; returned she; &ldquo;for Mrs. Long has just been here, and she told me all about it.&rdquo;</p>
-<p>Mr. Bennet made no answer.</p>
-<p>&ldquo;Do not you want to know who has taken it?&rdquo; cried his wife impatiently.</p>
-<p>&ldquo;You want to tell me, and I have no objection to hearing it.&rdquo;</p>
-<p>This was invitation enough.</p>
-<p>&ldquo;Why, my dear, you must know, Mrs. Long says that Netherfield is taken by a young man of large fortune from the north of England; that he came down on Monday in a chaise and four to see the place, and was so much delighted with it that he agreed with Mr. Morris immediately; that he is to take possession before Michaelmas, and some of his servants are to be in the house by the end of next week.&rdquo;</p>
-<p>&ldquo;What is his name?&rdquo;</p>
-<p>&ldquo;Bingley.&rdquo;</p>
-<p>&ldquo;Is he married or single?&rdquo;</p>
-<p>&ldquo;Oh! single, my dear, to be sure! A single man of large fortune; four or five thousand a year. What a fine thing for our girls!&rdquo;</p>
-<p>&ldquo;How so? how can it affect them?&rdquo;</p>
-<p>&ldquo;My dear Mr. Bennet,&rdquo; replied his wife, &ldquo;how can you be so tiresome! You must know that I am thinking of his marrying one of them.&rdquo;</p>
-<p>&ldquo;Is that his design in settling here?&rdquo;</p>
-<p>&ldquo;Design! nonsense, how can you talk so! But it is very likely that he may fall in love with one of them, and therefore you must visit him as soon as he comes.&rdquo;</p>
-<p>&ldquo;I see no occasion for that. You and the girls may go, or you may send them by themselves, which perhaps will be still better; for, as you are as handsome as any of them, Mr. Bingley might like you the best of the party.&rdquo;</p>
-<p>&ldquo;My dear, you flatter me. I certainly have had my share of beauty, but I do not pretend to be any thing extraordinary now. When a woman has five grown up daughters, she ought to give over thinking of her own beauty.&rdquo;</p>
-<p>&ldquo;In such cases, a woman has not often much beauty to think of.&rdquo;</p>
-<p>&ldquo;But, my dear, you must indeed go and see Mr. Bingley when he comes into the neighbourhood.&rdquo;</p>
-<p>&ldquo;It is more than I engage for, I assure you.&rdquo;</p>
-<p>&ldquo;But consider your daughters. Only think what an establishment it would be for one of them. Sir William and Lady Lucas are determined to go, merely on that account, for in general, you know they visit no new comers. Indeed you must go, for it will be impossible for us to visit him, if you do not.&rdquo;</p>
-<p>&ldquo;You are over-scrupulous, surely. I dare say Mr. Bingley will be very glad to see you; and I will send a few lines by you to assure him of my hearty consent to his marrying which ever he chuses of the girls; though I must throw in a good word for my little Lizzy.&rdquo;</p>
-<p>&ldquo;I desire you will do no such thing. Lizzy is not a bit better than the others; and I am sure she is not half so handsome as Jane, nor half so good humoured as Lydia. But you are always giving her the preference.&rdquo;</p>
-<p>&ldquo;They have none of them much to recommend them,&rdquo; replied he; &ldquo;they are all silly and ignorant like other girls; but Lizzy has something more of quickness than her sisters.&rdquo;</p>
-<p>&ldquo;Mr. Bennet, how can you abuse your own children in such way? You take delight in vexing me. You have no compassion on my poor nerves.&rdquo;</p>
-<p>&ldquo;You mistake me, my dear. I have a high respect for your nerves. They are my old friends. I have heard you mention them with consideration these twenty years at least.&rdquo;</p>
-<p>&ldquo;Ah! you do not know what I suffer.&rdquo;</p>
-<p>&ldquo;But I hope you will get over it, and live to see many young men of four thousand a year come into the neighbourhood.&rdquo;</p>
-<p>&ldquo;It will be no use to us if twenty such should come, since you will not visit them.&rdquo;</p>
-<p>&ldquo;Depend upon it, my dear, that when there are twenty I will visit them all.&rdquo;</p>
-<p>Mr. Bennet was so odd a mixture of quick parts, sarcastic humour, reserve, and caprice, that the experience of three and twenty years had been insufficient to make his wife understand his character. Her mind was less difficult to develope. She was a woman of mean understanding, little information, and uncertain temper. When she was discontented, she fancied herself nervous. The business of her life was to get her daughters married; its solace was visiting and news.</p>
+            <p>那么这个网站终于已经是建成功了。<br>
+这是一个用hugo+github搭建的个人博客。<br>
+现在开始介绍搭建的过程,read go</p>
+<h1 id="安装hugo">安装hugo</h1>
+<p>什么是hugo？搭建个人博客有很多开源的博客框架，。Hugo 是一个基于Go 语言的框架，可以快速方便的创建自己的博客。Hugo 支持Markdown 语法，我们可以将自己的文章写成Markdown 的格式，放在我们用Hugo 创建的博客系统中，从而展示给他人。<br>
+hugo的安装地址&gt;https://github.com/gohugoio/hugo/releases在这个网址里找到合适你自己的系统的安装包（比如window 64位操作系统）
+<img src="http://girhub/photos/de0ebac3a522c4aea89fb24dc8331d2.png" alt="a">
+点击show all assets找到适合你系统的安装包。<br>
+下载好压缩包之后，是解压到一个新建文件夹里面；如图标准三件套。<br>
+！<a href=""></a><br>
+然后开始设置环境变量<br>
+什么是环境变量？按我的理解就类似于局部变量和全局变量，设置了环境变量以后你就能在操作系统中使用hugo。<br>
+以我的64位的window11为例，打开开始（四季小图标）找到设置，打开，在里面搜索环境变量，点击编辑系统环境变量，再在弹出来的窗口点击环境变量，在你的用户变量里面找到path那一栏，双击，然后点击新建，把你的hugo所在的路劲粘贴上去确定即可。
+当你添加好环境变量之后，在四季小图标打开cmd(命令提示符)，输入hugo version，如果显示了版本信息就说明安装成功了。</p>
 <blockquote>
-<p>From Pride and Prejudice.</p>
+<p>嘻嘻</p>
 </blockquote>
 
         </div>
@@ -263,10 +267,13 @@ However little known the feelings or views of such a man may be on his first ent
                         <div class="has-text-left">
                             
                             <p>Previous post</p>
-                            <a href="https://teeery.github.io/post/my-first-blog/">MY FIRST BLOG</a>
+                            <a href="https://teeery.github.io/post/markdown_syntax_guide/">Markdown Syntax Guide</a>
                             
                         </div>
                         <div class="has-text-right">
+                            
+                            <p>Next post</p>
+                            <a href="https://teeery.github.io/post/my-first-blog/">MY FIRST BLOG</a>
                             
                         </div>
         </section>
